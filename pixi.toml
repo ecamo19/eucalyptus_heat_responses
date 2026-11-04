@@ -10,9 +10,12 @@ version = "0.1.0"
 install_droughtbox_package         = "Rscript -e \"remotes::install_github('ecamo19/HIEdroughtbox')\""
 install_austraits_package          = "Rscript -e \"remotes::install_github('traitecoevo/austraits')\"" 
 install_pca_package                = "Rscript -e \"BiocManager::install('pcaMethods')\"" 
+install_stats_package              = "Rscript -e \"remotes::install_github('glmmTMB/glmmTMB/glmmTMB')\"" 
 
-rstudio = {cmd = "rstudio", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package"]}
-jupyter_nb = {cmd = "jupyter notebook", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package"]}
+
+
+rstudio = {cmd = "rstudio", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package","install_stats_package"]}
+jupyter_nb = {cmd = "jupyter notebook", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package", "install_stats_package"]}
 
 
 
