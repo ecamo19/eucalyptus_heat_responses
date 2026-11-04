@@ -63,6 +63,7 @@ rsconnect/
 *.jpeg
 *.jpg
 *.png
+!r_pixi.png
 *.sed
 *.raw
 *.pdf
