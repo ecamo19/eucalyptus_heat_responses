@@ -1,56 +1,46 @@
 [workspace]
 authors = ["ecamo19 <erickcamo19@gmail.com>"]
-channels = ["conda-forge"]
-name = "eucalyptus_heat_response"
+channels = ["conda-forge", "bioconda"]
+name = "eucalyptus_heat_responses"
 description = "This file contains all the dependencies for reproducing the statistical analisys for the paper title:Lack of coordination between drought traits and heat responses in Fast-Risky and Slow-Safe tree species"
-platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+platforms = ["win-64", "linux-64", "osx-64"]
 version = "0.1.0"
 
 [tasks]
 install_droughtbox_package         = "Rscript -e \"remotes::install_github('ecamo19/HIEdroughtbox')\""
-install_austraits_package          = "Rscript -e \"remotes::install_github('traitecoevo/austraits')\"" 
-install_pca_package                = "Rscript -e \"BiocManager::install('pcaMethods')\"" 
-
-rstudio = {cmd = "rstudio", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package"]}
-jupyter_nb = {cmd = "jupyter notebook", depends-on = ["install_droughtbox_package","install_pca_package", "install_austraits_package"]}
-
+install_austraits_package          = "Rscript -e \"remotes::install_github('traitecoevo/austraits')\""  
+jupyter_nb = {cmd = "jupyter notebook", depends-on = ["install_droughtbox_package", "install_austraits_package"]}
+rstudio = {cmd = "rstudio", depends-on = ["install_droughtbox_package","install_austraits_package"]}
 
 
 [dependencies]
-r = ">=4.5"
-r-devtools = ">=2.5.0,<3"
-r-dplyr = ">=1.2.1,<2"
-r-tidyr = ">=1.3.2,<2"
-r-pak = ">=0.11.1,<0.12"
-r-here = ">=1.0.2,<2"
+r = "==4.3"
+r-devtools = ">=2.4.5,<3"
+r-dplyr = ">=1.1.4,<2"
+r-tidyr = ">=1.3.1,<2"
+r-pak = ">=0.9.0,<0.10"
+r-here = ">=1.0.1,<2"
 r-prettydoc = ">=0.4.1,<0.5"
-r-reticulate = ">=1.47.0,<2"
-r-ggpubr = ">=1.0.0,<2"
-r-reactable = ">=0.4.5,<0.5"
-r-emmeans = ">=2.0.4,<3"
-r-biocmanager = ">=1.30.27,<2"
-r-styler = ">=1.11.0,<2"
-r-factoextra = ">=2.2.0,<3"
-r-car = ">=3.1_5,<4"
-r-bh = ">=1.90.0_1,<2"
+r-reticulate = ">=1.43.0,<2"
+r-ggpubr = ">=0.6.1,<0.7"
+r-reactable = ">=0.4.4,<0.5"
+r-segmented = ">=2.1_4,<3"
+r-lme4 = ">=1.1_37,<2"
+r-lmertest = ">=3.1_3,<4"
+r-emmeans = ">=1.11.2_8,<2"
+r-biocmanager = ">=1.30.26,<2"
+r-styler = ">=1.10.3,<2"
+r-factoextra = ">=1.0.7,<2"
+r-car = ">=3.1_3,<4"
+r-bh = ">=1.87.0_1,<2"
 r-ggh4x = ">=0.3.1,<0.4"
-r-glmmtmb = ">=1.1.14,<2"
-r-performance = ">=0.19.0,<0.20"
-r-see = ">=0.15.0,<0.16"
-r-xtable = ">=1.8_8,<2"
-r-kableextra = ">=1.4.1,<2"
+r-glmmtmb = ">=1.1.9,<2"
+r-performance = ">=0.15.1,<0.16"
+r-see = ">=0.11.0,<0.12"
+r-xtable = ">=1.8_4,<2"
+r-kableextra = ">=1.4.0,<2"
 r-patchwork = ">=1.3.2,<2"
 r-ggnewscale = ">=0.5.2,<0.6"
-r-flextable = ">=0.10.3,<0.11"
-r-officer = ">=0.7.7,<0.8"
-r-irkernel = ">=1.3.2,<2"
-r-lmertest = ">=3.2_1,<4"
-jupyterlab = ">=4.6.5,<5"
-pixi-kernel = ">=0.7.1,<0.8"
-ipython = ">=9.18.1,<10"
-ipywidgets = ">=8.1.9,<9"
-python = ">=3.15.2,<3.16"
-notebook = ">=7.6.4,<8"
-bash_kernel = ">=0.7.2,<0.11"
-r-remotes = ">=2.5.0,<3"
+r-flextable = ">=0.9.10,<0.10"
+r-officer = ">=0.7.0,<0.8"
 
