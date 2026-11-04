@@ -13,7 +13,7 @@ Or visit the github repository at https://github.com/ecamo19/eucalyptus_heat_res
 For reproducing the results in the repository:
 
 1) Install [pixi](https://pixi.prefix.dev/latest/#installation) for getting the necessary R dependecies
-2) Download the this github repository: 
+2) Download this github repository: 
 
 `git clone https://github.com/ecamo19/eucalyptus_heat_responses/`
 
@@ -24,5 +24,8 @@ enter the following terminal command:
 
 4) Open a jupyter server using the following terminal command:
 
-
 `pixi run jupyter_nb`
+
+This might take several minutes while the dependencies are installed
+
+5) Ensure 
