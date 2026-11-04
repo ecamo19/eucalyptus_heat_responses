@@ -1,0 +1,41 @@
+taxon_name,trait_name,trait_value,units,source,link
+Eucalyptus saligna,gs50,-2.34,mpa ,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus grandis,gs50,-1.95,mpa ,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus dunnii,gs50,-2.42,mpa ,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus tereticornis,gs50,-2.43,mpa ,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus crebra,gs50,-3.3,mpa ,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus sideroxylon,gs50,-1.34,mpa ,li_2018,https://onlinelibrary.wiley.com/doi/epdf/10.1111/pce.13129
+Eucalyptus melliodora,gs50,-2.05,mpa ,li_2018,https://onlinelibrary.wiley.com/doi/epdf/10.1111/pce.13129
+Eucalyptus fibrosa,gs50,NA,NA,NA,NA
+Eucalyptus saligna,wood_density,0.45,gcm−3,heroult_2013,https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-3040.2012.02570.x
+Eucalyptus grandis,wood_density,0.35,gcm−3,li_2018,https://onlinelibrary.wiley.com/doi/epdf/10.1111/pce.13129
+Eucalyptus dunnii,wood_density,0.41,gcm−3,heroult_2013,https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-3040.2012.02570.x
+Eucalyptus tereticornis,wood_density,0.55,gcm−3,peters_2021,https://onlinelibrary.wiley.com/doi/epdf/10.1111/gcb.15641
+Eucalyptus crebra,wood_density,0.66,g∙cm-2,bourne_thesis,https://researchers-admin.westernsydney.edu.au/ws/portalfiles/portal/94865628/uws_37544.pdf
+Eucalyptus sideroxylon,wood_density,0.641,gcm−3,Sebastian Pfautsch,https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/16-0147.1
+Eucalyptus melliodora,wood_density,0.575,gcm−3,heroult_2013,https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-3040.2012.02570.x
+Eucalyptus fibrosa,wood_density,0.7,gcm−3,peters_2021,https://onlinelibrary.wiley.com/doi/epdf/10.1111/gcb.15641
+Eucalyptus saligna,volume_index_change,133,m3 ha−1 year−1,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus grandis,volume_index_change,165,m3 ha−1 year−1,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus dunnii,volume_index_change,156,m3 ha−1 year−1,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus tereticornis,volume_index_change,60,m3 ha−1 year−1,bourne_2017,https://academic.oup.com/aob/article/120/1/123/3091124?login=false
+Eucalyptus crebra,volume_index_change,29.7,m3 ha−1 year−1,bourne_2015,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus sideroxylon,volume_index_change,NA,NA,NA,NA
+Eucalyptus melliodora,volume_index_change,3.9,m3 ha−1 year−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus fibrosa,volume_index_change,NA,NA,NA,NA
+Eucalyptus saligna,gsmax,0.21,mol m−2 s−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus grandis,gsmax,0.37,mol m−2 s−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus dunnii,gsmax,0.403,mol m−2 s−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus tereticornis,gsmax,0.48,mol m−2 s−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus crebra,gsmax,0.23,mol m−2 s−1,bourne_2017,https://academic.oup.com/treephys/article/35/3/266/1648948?login=true
+Eucalyptus sideroxylon,gsmax,0.31,mol m−2 s−1,li_2018,https://onlinelibrary.wiley.com/doi/epdf/10.1111/pce.13129
+Eucalyptus melliodora,gsmax,0.3,mol m−2 s−1,li_2018,https://onlinelibrary.wiley.com/doi/epdf/10.1111/pce.13129
+Eucalyptus fibrosa,gsmax,NA,NA,NA,NA
+Eucalyptus saligna,p50,-3.4,mpa ,choat_db,NA
+Eucalyptus grandis,p50,-3.83,mpa ,choat_db,NA
+Eucalyptus dunnii,p50,-3.75,mpa ,BHD,NA
+Eucalyptus tereticornis,p50,-3.89,mpa ,choat_db,NA
+Eucalyptus crebra,p50,-4.9,mpa ,choat_db,NA
+Eucalyptus sideroxylon,p50,-4.12,mpa ,choat_db,NA
+Eucalyptus melliodora,p50,-5.02,mpa ,choat_db,NA
+Eucalyptus fibrosa,p50,-5.82,mpa ,choat_db,NA
