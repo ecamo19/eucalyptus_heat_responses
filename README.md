@@ -28,7 +28,7 @@ enter the following terminal command:
 
 This might take several minutes while the dependencies are installed
 
-5) Finally, to execute the code in each .ipynb make sure the notebook is 
+5) Finally, to execute the code in each `.ipynb` file make sure the notebook is 
 Trusted (if a Not Trusted flag shows up inside the notebook, change it to 
 Trusted by clicking over it. This is located at the top right) and the 
 kernel R (Pixi) is selected.
