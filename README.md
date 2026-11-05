@@ -7,6 +7,12 @@
 
 # Code Reproducibility
 
+## Platforms supported
++ Linux:
++ Windonws e62a:
++ MacOS:
++ MacOS-Arm
+
 This repository contains all the raw data and code used in the paper titled:
 
 "Lack of coordination between drought traits and heat responses in Fast-Risky and Slow-Safe tree species".
