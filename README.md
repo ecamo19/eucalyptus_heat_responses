@@ -1,5 +1,4 @@
-# [![[DOI](https://zenodo.org/badge/781384370.svg)]](https://zenodo.org/records/23967950)
-
+# [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23967950.svg)](https://zenodo.org/records/23967950)   
 
 # License
 - Code: [MIT](LICENSE)
