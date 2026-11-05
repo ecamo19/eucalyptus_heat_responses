@@ -25,22 +25,22 @@ For reproducing the results in the repository:
 
 __1)__ Install [pixi](https://pixi.prefix.dev/latest/#installation) for getting the necessary R dependecies
 
-2) Download this github repository: 
+__2)__ Download this github repository: 
 
 `git clone https://github.com/ecamo19/eucalyptus_heat_responses/`
 
-3) Once you have setup your the working directory to the downloaded repository, 
+__3)__ Once you have setup your the working directory to the downloaded repository, 
 enter the following terminal command:
 
 `pixi shell` 
 
-4) Open a jupyter server using the following terminal command:
+__4)__ Open a jupyter server using the following terminal command:
 
 `pixi run jupyter_nb`
 
 This might take several minutes while the dependencies are installed
 
-5) Finally, to execute the code in each `.ipynb` file make sure the notebook is 
+__5)__ Finally, to execute the code in each `.ipynb` file make sure the notebook is 
 Trusted (if a Not Trusted flag shows up inside the notebook, change it to 
 Trusted by clicking over it. This is located at the top right) and the 
 kernel R (Pixi) is selected.
