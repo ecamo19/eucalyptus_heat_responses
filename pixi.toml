@@ -12,6 +12,9 @@ install_austraits_package          = "Rscript -e \"remotes::install_github('trai
 jupyter_nb = {cmd = "jupyter notebook", depends-on = ["install_droughtbox_package", "install_austraits_package"]}
 rstudio = {cmd = "rstudio", depends-on = ["install_droughtbox_package","install_austraits_package"]}
 
+[target.win-64.dependencies]
+libstdcxx = "13.*"
+r-reticulate = ">=1.42.0,<2"
 
 [dependencies]
 r = "==4.3"
