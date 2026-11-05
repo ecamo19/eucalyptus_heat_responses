@@ -3,7 +3,7 @@
 
 # License
 - Code: [MIT](LICENSE)
-- Data in `01_euc_saligna/`, `02_euc_grandis/`, `03_euc_crebra/` `04_euc_dunnii`, `05_euc_tereticornis`, `06_euc_melliodora`, `07_euc_sideroxylum`, `07_euc_sideroxylum`,: [CC BY 4.0](LICENSES/CC-BY-4.0.txt) — please cite as below:
+- Data in `01_euc_saligna/`, `02_euc_grandis/`, `03_euc_crebra/` `04_euc_dunnii`, `05_euc_tereticornis`, `06_euc_melliodora`, `07_euc_sideroxylum`, `08_euc_fibrosa`,: [CC BY 4.0](LICENSES/CC-BY-4.0.txt) — please cite as below:
 
 
 # Code Reproducibility
