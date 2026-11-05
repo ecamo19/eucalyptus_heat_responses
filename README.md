@@ -9,7 +9,7 @@
 
 ## Platforms supported
 + Linux: ✅
-+ Windonws: ✅
++ Windows: ✅
 + MacOS: ✅
 + MacOS-Arm: ❌
 
