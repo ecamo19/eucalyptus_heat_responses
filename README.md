@@ -23,7 +23,8 @@ Or visit the github repository at https://github.com/ecamo19/eucalyptus_heat_res
 
 For reproducing the results in the repository:
 
-1) Install [pixi](https://pixi.prefix.dev/latest/#installation) for getting the necessary R dependecies
+__1)__ Install [pixi](https://pixi.prefix.dev/latest/#installation) for getting the necessary R dependecies
+
 2) Download this github repository: 
 
 `git clone https://github.com/ecamo19/eucalyptus_heat_responses/`
