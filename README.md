@@ -1,4 +1,4 @@
-# ![Zenodo doi badge](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23967950-blue.svg)
+# [![Zenodo doi badge](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23967950-blue.svg)]
 
 # Licenses
 - Code: [MIT](LICENSE)
