@@ -9,7 +9,7 @@
 # Code Reproducibility
 
 ## Platforms supported
-+ Linux: ✅
++ Linux (Arch BTW): ✅
 + Windows: ✅
 + MacOS: ✅
 + MacOS-Arm: ❌
