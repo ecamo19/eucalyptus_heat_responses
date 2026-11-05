@@ -8,10 +8,10 @@
 # Code Reproducibility
 
 ## Platforms supported
-+ Linux:
-+ Windonws e62a:
-+ MacOS:
-+ MacOS-Arm
++ Linux: ✅
++ Windonws: ✅
++ MacOS: ✅
++ MacOS-Arm: ❌
 
 This repository contains all the raw data and code used in the paper titled:
 
